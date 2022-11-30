@@ -31,7 +31,7 @@ twitter_username: somvanglaz
 github_username:  vanglaz
 
 # Build settings
-theme: minima
+# theme: minima
 minima:
   skin: solarized-dark
   date_format: "%b %-d, %Y"
