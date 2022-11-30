@@ -20,7 +20,7 @@
 
 title: Have A Cup Of Tea!
 email: somvang230@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines until "baseurl:"
   "In Zen,
    we don't find the answers. 
    We lose the questions."
@@ -31,7 +31,7 @@ twitter_username: somvanglaz
 github_username:  vanglaz
 
 # Build settings
-# theme: minima
+theme: minima
 minima:
   skin: solarized-dark
   date_format: "%b %-d, %Y"
