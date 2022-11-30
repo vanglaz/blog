@@ -18,12 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Have A Cup Of Tea!
 email: somvang230@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > # this means to ignore newlines until "baseurl:"
+  "In Zen,
+   we don't find the answers. 
+   We lose the questions."
+  -Zen saying-
 baseurl: "blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: somvanglaz
@@ -31,6 +32,19 @@ github_username:  vanglaz
 
 # Build settings
 theme: minima
+minima:
+  skin: solarized-dark
+  date_format: "%b %-d, %Y"
+  social_links:
+    - { platform: github, user_url: "https://github.com/vanglaz" }
+    - { platform: twitter, user_url: "https://twitter.com/somvanglaz" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/somvang-lattakoun-678594110/" }
+author:
+  name: Vanglaz
+  email: "somvang230@gmail.com"
+
+# show_excerpts: true 
+
 plugins:
   - jekyll-feed
 
