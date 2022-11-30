@@ -20,7 +20,7 @@
 
 title: Have A Cup Of Tea!
 email: somvang230@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines until "baseurl:"
   "In Zen,
    we don't find the answers. 
    We lose the questions."
@@ -39,6 +39,7 @@ minima:
     - { platform: github, user_url: "https://github.com/vanglaz" }
     - { platform: twitter, user_url: "https://twitter.com/somvanglaz" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/somvang-lattakoun-678594110/" }
+
 author:
   name: Vanglaz
   email: "somvang230@gmail.com"
@@ -47,6 +48,7 @@ author:
 
 plugins:
   - jekyll-feed
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
