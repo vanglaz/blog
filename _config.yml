@@ -25,13 +25,14 @@ description: >- # this means to ignore newlines until "baseurl:"
    we don't find the answers. 
    We lose the questions."
   -Zen saying-
-baseurl: "blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: somvanglaz
 github_username:  vanglaz
 
 # Build settings
-theme: minima
+markdown: kramdown
+theme: minima 
 minima:
   skin: solarized-dark
   date_format: "%b %-d, %Y"
@@ -48,6 +49,7 @@ author:
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   
 
 # Exclude from processing.
