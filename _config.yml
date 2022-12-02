@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Have A Cup Of Tea!
+title: Have a cup of tea!
 email: somvang230@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   "In Zen,
@@ -37,15 +37,21 @@ minima:
   skin: solarized-dark
   date_format: "%b %-d, %Y"
   social_links:
-    - { platform: github, user_url: "https://github.com/vanglaz" }
-    - { platform: twitter, user_url: "https://twitter.com/somvanglaz" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/somvang-lattakoun-678594110/" }
+    - platform: github
+      user_url: "https://github.com/vanglaz"
+      title: vanglaz
+  # social_links: 
+    - platform: twitter
+      user_url: "https://twitter.com/somvanglaz"
+      title: somvanglaz
 
 author:
   name: Vanglaz
   email: "somvang230@gmail.com"
 
-# show_excerpts: true 
+show_excerpts: true 
+
+google_analytics: UA-NNNNNNNN-NA
 
 plugins:
   - jekyll-feed
